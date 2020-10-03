@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="Portrait">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle"><i class="fa fa-bars fa-2x"></i></button>
+
+        <h1>My Landing Page</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, debitis.</p>
+        <button class="cta-btn" id="open">Sign Up</button>
+
+    </header>
+
+    <div class="container">
+        <h2>What is this landing page about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint minima fugit exercitationem error
+            dignissimos! Cupiditate quisquam eveniet cum ducimus sit obcaecati, hic est optio expedita laboriosam quos
+            enim magni?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci aut totam deleniti necessitatibus
+            facere? Repellat consequatur atque voluptatibus vero!</p>
+
+        <h2>Tell me more</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eligendi rem corrupti minima expedita
+            accusamus ab consequuntur, doloribus optio accusantium harum totam ullam ad dolore nesciunt voluptatibus
+            odit dolor, porro sequi aliquid. Minima eos sit est aliquam amet omnis hic!</p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 days money back</li>
+            <li>Tailored customer support</li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad suscipit saepe veniam. Rem quia facilis
+            veritatis aut possimus eos, blanditiis odit, voluptas autem voluptatum modi quaerat, error quo inventore
+            reprehenderit veniam voluptate enim! Fuga deleniti eos obcaecati quia vitae architecto aliquam minus et
+            delectus ullam ipsum natus, quam officiis corrupti nam sint accusamus dolore iusto fugit magni. Similique
+            debitis, optio praesentium atque, ex nisi ut excepturi ratione quidem repellat magni?</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close"><i class="fa fa-times"></i></button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>register with us to have offers, support and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Type your password">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm password</label>
+                        <input type="password" id="password2" placeholder="Type your password again">
+                    </div>
+                    <input type="submit" id="submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/dcf69bd97a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
